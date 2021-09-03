@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import { getFeaturedEvents } from '../dummy-data'
 
 export default function HomePage() {
+	const featuredEvents = getFeaturedEvents()
+
 	return (
 		<div>
 			<h1>Home page</h1>
